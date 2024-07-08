@@ -2,3 +2,37 @@
 body{
     font-family: "Merriweather", serif;
 }
+/* header banner styles */
+.banner{
+    width: 1300px;
+    height: 600px;
+    margin: 50px 140px 0px 140px;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.315);
+    background-image: url(../assests/images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    /* padding: 177px 344px; */
+    
+}
+.banner-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner-title{
+    font-size: 32px;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 200px;
+    margin-bottom: 2px;
+}
+.banner-head{
+    font-size: 72px;
+    font-weight: black;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 0px;
+}
